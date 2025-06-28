@@ -11,7 +11,7 @@ import 'package:go_router/go_router.dart';
 
 class RouterGenerator {
   static final GoRouter goRouter = GoRouter(
-    initialLocation: AppRoutes.appScreen,
+    initialLocation: AppRoutes.welcomeScreen,
     routes: [
       GoRoute(
         path: AppRoutes.welcomeScreen,
